@@ -3,25 +3,25 @@ range_count = 10
 for_count = 0
 run = True
 
-# while run:
-#     print("Hello Cycle")
-#
-# while run:
-#     print(f"Step = {count}")
-#     count += 1
-#
-# while count < range_count:
-#     print(f"Step = {count}")
-#     count += 1
-#     if count == 3:
-#         print(f"Step = {count} If body")
-#
-# while run:
-#     print(f"Step = {count}")
-#     count += 1
-#     if count == range_count:
-#         print(f"Stop {count}")
-#         break
+while run:
+    print("Hello Cycle")
+
+while run:
+    print(f"Step = {count}")
+    count += 1
+
+while count < range_count:
+    print(f"Step = {count}")
+    count += 1
+    if count == 3:
+        print(f"Step = {count} If body")
+
+while run:
+    print(f"Step = {count}")
+    count += 1
+    if count == range_count:
+        print(f"Stop {count}")
+        break
 
 for item in range(for_count, range_count):
     print(f"Step = {item}")
